@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700:PT++Mono);
+
+/* 
+Em :root defini-se as variáveis.
+*/
+:root {
+    --primary-color: lightcoral;
+    --secondary-color: dimgray;
+    --tertiary-color: gainsboro;
+    --cor4-color: black;
+    --cor5-color: red;
+    --cor6-color: blue;
+    --cor7-color: gray;
+}
+
+body { 
+    background-color: var(--cor4-color);
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    /* box-shadow >> Sombra */
+    /* box-shadow: 5px 5px 5px var(--tertiary-color); */
+    /* border-radius >> para arredondar a borda */
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--cor6-color);
+    color: var(--tertiary-color);
+    padding: 20px;
+    /* 
+    Valores para text-transform:
+    capitalize: Primeira letra maiúscula.
+    lowercase: Todas as letras minúsculas.
+    uppercase: Todas as letras maiúsculas.
+    */
+    text-transform: uppercase;
+    font-size: 18px;
+    /* Espessura da fonte. */
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* Alinhamento do texto. */
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+/* Estilização para o evento :focus para os elementos .formInput */
+.formInput:focus {
+    border: 3px solid var(--cor5-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--cor7-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--cor4-color);    
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
