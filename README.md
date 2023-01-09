@@ -10,4 +10,4 @@
 - Informar a qualidade do serviço para determinar o percentual da gorjeta em relação a conta.
 - Informar a quantidade de pessoas que vão dividir o pagamento da gorjeta.
 - Ao clicar em CALCULAR será calculado o valor total da gorjeta (% qualidade do serviço X valor da conta) 
-e será divido pela quantidade de pessoas que vão pagar a gojeta.
+e será divido pela quantidade de pessoas que vão pagar a gorjeta.
